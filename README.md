@@ -6,16 +6,15 @@ Welcome to the **Porter Business & Operational Performance Analysis** repository
 
 ## 📌 Overview
 
-The objective of this analysis is to evaluate operational bottlenecks and revenue drivers across various dimensions—such as geographic markets, cuisine categories, order value brackets, time-of-day order patterns, and delivery lead times—to identify actionable optimization opportunities[cite: 2].
+The objective of this analysis is to evaluate operational bottlenecks and revenue drivers across various dimensions—such as geographic markets, cuisine categories, order value brackets, time-of-day order patterns, and delivery lead times—to identify actionable optimization opportunities.
 
 ### 🔑 Key Performance Indicators (KPIs)
-* **Total Revenue:** ₹52.75 Cr[cite: 2]
-* **Total Orders:** 196,402[cite: 2]
-* **Average Order Value (AOV):** ₹2,685.61[cite: 2]
-* **On-Time Delivery Rate (<45 min):** 52.0%[cite: 2]
-* **Average Delivery Time:** 47.54 Min[cite: 2]
-* **Average Partner Utilization:** 85.4%[cite: 2]
-
+* **Total Revenue:** ₹52.75 Cr
+* **Total Orders:** 196,402
+* **Average Order Value (AOV):** ₹2,685.61
+* **On-Time Delivery Rate (<45 min):** 52.0%
+* **Average Delivery Time:** 47.54 Min
+* **Average Partner Utilization:** 85.4%
 ---
 
 ## 🛠️ Tools & Methods Used
@@ -25,21 +24,21 @@ The objective of this analysis is to evaluate operational bottlenecks and revenu
 
 ### 📐 Analytical Methods & Features
 1. **Data Cleaning & Preprocessing**:
-   * Standardized data formats across currency values, timestamps, durations, and categorical labels[cite: 2].
-   * Calculated operational metrics such as order delivery brackets, hourly time buckets, and SLA compliance flags[cite: 2].
+   * Standardized data formats across currency values, timestamps, durations, and categorical labels.
+   * Calculated operational metrics such as order delivery brackets, hourly time buckets, and SLA compliance flags[.
 
 2. **Excel Formulas & Analytical Modeling**:
-   * `SUMIFS`, `COUNTIFS`, and `AVERAGEIFS` for multi-condition regional, hourly, and SLA performance calculations[cite: 2].
-   * `TEXT()` and time-based functions to parse time-of-day distributions and hourly peak trends[cite: 2].
-   * Logical and threshold functions to group orders into price tiers (`<₹1K`, `₹1K-2K`, `₹2K-3K`, `₹3K-5K`, `₹5K+`) and delivery time windows (`0-30 min`, `31-45 min`, `46-60 min`, `61-90 min`, `>90 min`)[cite: 2].
+   * `SUMIFS`, `COUNTIFS`, and `AVERAGEIFS` for multi-condition regional, hourly, and SLA performance calculations.
+   * `TEXT()` and time-based functions to parse time-of-day distributions and hourly peak trends.
+   * Logical and threshold functions to group orders into price tiers (`<₹1K`, `₹1K-2K`, `₹2K-3K`, `₹3K-5K`, `₹5K+`) and delivery time windows (`0-30 min`, `31-45 min`, `46-60 min`, `61-90 min`, `>90 min`).
 
 3. **Pivot Tables & Multi-Dimensional Data Aggregation**:
-   * Aggregated market-level order volumes and total revenue to identify high-performing territories vs. expansion targets[cite: 2].
-   * Evaluated partner fleet utilization patterns across time periods and market zones[cite: 2].
+   * Aggregated market-level order volumes and total revenue to identify high-performing territories vs. expansion targets.
+   * Evaluated partner fleet utilization patterns across time periods and market zones.
 
 4. **Visual Dashboarding & Reporting**:
-   * Built visual breakdowns using horizontal bar charts, doughnut distribution charts, and timeline trend layouts[cite: 2].
-   * Formatted performance highlights to distinguish SLA breach points and revenue concentration[cite: 2].
+   * Built visual breakdowns using horizontal bar charts, doughnut distribution charts, and timeline trend layouts.
+   * Formatted performance highlights to distinguish SLA breach points and revenue concentration.
 
 ---
 
@@ -55,21 +54,21 @@ The objective of this analysis is to evaluate operational bottlenecks and revenu
    * **Order Concentration:** 79% of all orders sit within the ₹1,000–₹5,000 price range, led by the ₹1K–2K bracket (33% / 65.3K orders)[cite: 2].
 
 3. **Temporal Demand & Fleet Utilization**:
-   * **Late Night Dominance:** Late Night orders (143.6K orders / 73% of total volume) represent the core revenue pillar, peaking drastically around 2:00 AM (36,809 orders)[cite: 2].
-   * **Weekend Surge:** Weekend demand peaks on Saturday (34.4K orders) and Sunday (33.4K orders), showing a 44% surge compared to mid-week troughs (Tuesday: 23.9K)[cite: 2].
-   * **Utilization Imbalance:** Partner fleet utilization drops to a low of 44% at 14:00 (2:00 PM) before surging to 90% during evening peak hours (19:00–20:00)[cite: 2].
+   * **Late Night Dominance:** Late Night orders (143.6K orders / 73% of total volume) represent the core revenue pillar, peaking drastically around 2:00 AM (36,809 orders).
+   * **Weekend Surge:** Weekend demand peaks on Saturday (34.4K orders) and Sunday (33.4K orders), showing a 44% surge compared to mid-week troughs (Tuesday: 23.9K)].
+   * **Utilization Imbalance:** Partner fleet utilization drops to a low of 44% at 14:00 (2:00 PM) before surging to 90% during evening peak hours (19:00–20:00).
 
 4. **Delivery Bottlenecks & SLA Compliance**:
-   * **SLA Breaches:** On-time delivery (<45 min) is only 52%[cite: 2]. 48% of orders breach the 45-minute mark, with nearly 39,000 deliveries taking over 60 minutes[cite: 2].
+   * **SLA Breaches:** On-time delivery (<45 min) is only 52%[cite: 2]. 48% of orders breach the 45-minute mark, with nearly 39,000 deliveries taking over 60 minutes.
    * **Regional Disparities:** Market 1 experiences the longest average delivery time at 51 minutes, compared to 46 minutes in Markets 2 and 5[cite: 2].
 
 ---
 
 ## 🎯 Strategic Recommendations
 
-* **Shift Fleet Allocation to Late-Night Hours:** Reallocate partner driver schedules to match the severe 2:00 AM demand peak (36.8K orders) and introduce late-night completion incentives to enhance fulfillment speed[cite: 2].
-* **Optimize Market 1 Logistics Protocols:** Streamline merchant dispatch procedures and update route optimization algorithms specifically within Market 1 to reduce its 51-minute average delivery time[cite: 2].
-* **Drive Mid-Day Promotional Campaigns:** Launch targeted lunch and early afternoon promotions to boost demand during the 14:00 utilization slump (44% partner utilization) and smooth out operational load[cite: 2].
+* **Shift Fleet Allocation to Late-Night Hours:** Reallocate partner driver schedules to match the severe 2:00 AM demand peak (36.8K orders) and introduce late-night completion incentives to enhance fulfillment speed.
+* **Optimize Market 1 Logistics Protocols:** Streamline merchant dispatch procedures and update route optimization algorithms specifically within Market 1 to reduce its 51-minute average delivery time.
+* **Drive Mid-Day Promotional Campaigns:** Launch targeted lunch and early afternoon promotions to boost demand during the 14:00 utilization slump (44% partner utilization) and smooth out operational load.
 
 ---
 
