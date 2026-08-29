@@ -1,14 +1,14 @@
-# 📊 Porter Business & Operational Performance Analysis
+#  Porter Business & Operational Performance Analysis
 
-Welcome to the **Porter Business & Operational Performance Analysis** repository![cite: 2] This project presents an end-to-end operational and revenue performance evaluation built in Microsoft Excel[cite: 2]. The analysis explores key business drivers—including order volume dynamics, revenue distribution, SLA delivery efficiency, hourly fleet utilization, and market performance[cite: 2].
+Welcome to the **Porter Business & Operational Performance Analysis**  This project presents an end-to-end operational and revenue performance evaluation built in Microsoft Excel. The analysis explores key business drivers—including order volume dynamics, revenue distribution, SLA delivery efficiency, hourly fleet utilization, and market performance.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 The objective of this analysis is to evaluate operational bottlenecks and revenue drivers across various dimensions—such as geographic markets, cuisine categories, order value brackets, time-of-day order patterns, and delivery lead times—to identify actionable optimization opportunities.
 
-### 🔑 Key Performance Indicators (KPIs)
+###  Key Performance Indicators (KPIs)
 * **Total Revenue:** ₹52.75 Cr
 * **Total Orders:** 196,402
 * **Average Order Value (AOV):** ₹2,685.61
@@ -17,12 +17,12 @@ The objective of this analysis is to evaluate operational bottlenecks and revenu
 * **Average Partner Utilization:** 85.4%
 ---
 
-## 🛠️ Tools & Methods Used
+##  Tools & Methods Used
 
-### 🛠️ Tools
-* **Microsoft Excel**: Primary platform utilized for dataset cleaning, transformation, dynamic aggregations, formula modeling, and visual report design[cite: 2].
+###  Tools
+* **Microsoft Excel**: Primary platform utilized for dataset cleaning, transformation, dynamic aggregations, formula modeling, and visual report design.
 
-### 📐 Analytical Methods & Features
+###  Analytical Methods & Features
 1. **Data Cleaning & Preprocessing**:
    * Standardized data formats across currency values, timestamps, durations, and categorical labels.
    * Calculated operational metrics such as order delivery brackets, hourly time buckets, and SLA compliance flags[.
@@ -42,7 +42,7 @@ The objective of this analysis is to evaluate operational bottlenecks and revenu
 
 ---
 
-## 📈 Key Insights & Analytical Findings
+##  Key Insights & Analytical Findings
 
 1. **Revenue & Market Dynamics**:
    * **Top Revenue Drivers:** Market 2 (₹14.4 Cr revenue, 54.8K orders) and Market 4 (₹13.7 Cr revenue, 47.4K orders) account for over 53% of total revenue[cite: 2].
@@ -64,7 +64,7 @@ The objective of this analysis is to evaluate operational bottlenecks and revenu
 
 ---
 
-## 🎯 Strategic Recommendations
+##  Strategic Recommendations
 
 * **Shift Fleet Allocation to Late-Night Hours:** Reallocate partner driver schedules to match the severe 2:00 AM demand peak (36.8K orders) and introduce late-night completion incentives to enhance fulfillment speed.
 * **Optimize Market 1 Logistics Protocols:** Streamline merchant dispatch procedures and update route optimization algorithms specifically within Market 1 to reduce its 51-minute average delivery time.
@@ -74,4 +74,4 @@ The objective of this analysis is to evaluate operational bottlenecks and revenu
 
 Thank you for taking the time to check out this project! Your interest, feedback, and contributions mean a lot. If you have any suggestions feel free to share. Don't forget to ⭐ this repository if you found it helpful it really helps others find it too.
 
-Happy coding! 🚀
+Happy coding! 
